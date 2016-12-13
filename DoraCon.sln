@@ -1,0 +1,35 @@
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2008
+
+Project("{F7848834-0389-636D-8FEF-CAB5A875FF4D}") = "DoraCon", "Assembly-CSharp-firstpass.csproj", "{6F58D96B-7EE4-44BB-C78F-B3F89D954DCB}"
+EndProject
+Project("{F7848834-0389-636D-8FEF-CAB5A875FF4D}") = "DoraCon", "Assembly-CSharp-Editor-firstpass.csproj", "{CD6EA019-2336-F186-6377-737ABBB2E5BB}"
+EndProject
+Project("{F7848834-0389-636D-8FEF-CAB5A875FF4D}") = "DoraCon", "Assembly-UnityScript.unityproj", "{4C854AFC-40E7-D23B-40FC-A2C6A01A6623}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{6F58D96B-7EE4-44BB-C78F-B3F89D954DCB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6F58D96B-7EE4-44BB-C78F-B3F89D954DCB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6F58D96B-7EE4-44BB-C78F-B3F89D954DCB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6F58D96B-7EE4-44BB-C78F-B3F89D954DCB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CD6EA019-2336-F186-6377-737ABBB2E5BB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CD6EA019-2336-F186-6377-737ABBB2E5BB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CD6EA019-2336-F186-6377-737ABBB2E5BB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CD6EA019-2336-F186-6377-737ABBB2E5BB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4C854AFC-40E7-D23B-40FC-A2C6A01A6623}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4C854AFC-40E7-D23B-40FC-A2C6A01A6623}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4C854AFC-40E7-D23B-40FC-A2C6A01A6623}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4C854AFC-40E7-D23B-40FC-A2C6A01A6623}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(MonoDevelopProperties) = preSolution
+		StartupItem = Assembly-CSharp.csproj
+	EndGlobalSection
+EndGlobal
