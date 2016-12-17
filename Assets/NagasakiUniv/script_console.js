@@ -6,7 +6,7 @@ var script :script_scene_main;
 var windowRect : Rect = Rect (0, 0, 150, 250);
 
 function Start() {
-    windowRect = Rect (0, 0, 150, 120);
+    windowRect = Rect (0, 0, 300, 120);
 }
 
 function Update() {
@@ -30,7 +30,7 @@ function DoMyWindow (windowID : int) {
     GUI.Label(Rect(10, 40, 200, 20), ""+ objCar.transform.rotation, style);
     GUI.Label(Rect(10, 60, 200, 20), ""+ Input.GetAxis("Vertical")*1.0e3f, style);
     GUI.Label(Rect(10, 80, 200, 20), ""+ Input.GetAxis("Horizontal")*1.0e3f, style);
-    GUI.Label(Rect(10, 100, 200, 20), ""+ script.car_hit, style);
+    GUI.Label(Rect(10, 100, 300, 20), ""+ script.car_hit, style);
 
 
 /*
