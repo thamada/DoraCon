@@ -12,7 +12,7 @@ function Start() {
 function Update() {
     if (Input.GetKey(KeyCode.Escape)){
 //        Application.Quit();
-        Application.LoadLevel("main");
+        UnityEngine.SceneManagement.SceneManager.LoadScene("main");
     }
 
 }
