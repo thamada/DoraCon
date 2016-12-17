@@ -16,8 +16,11 @@ function Update() {
 
 function OnCollisionEnter (collision : Collision) {
 	script.car_hit = collision.gameObject;
+
+	/*
 	if(script.car_hit == objDoor){
 		Debug.Log("Hit Door");
 	}
+	*/
 }
 

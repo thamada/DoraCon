@@ -15,5 +15,6 @@ function Update() {
 }
 
 function OnCollisionEnter (collision : Collision) {
+	UnityEngine.SceneManagement.SceneManager.LoadScene("scene_odaiba");
 	//Debug.Log(""+collision.gameObject);
 }
